@@ -1,0 +1,47 @@
+{
+  "ownerID": "Id właściciela bota",
+  "rootGuild": "Id servera",
+
+  "ticketCategory": "Id kategorii ticketów",
+  "ticketLog": "Id kanału z logami",
+  "ticketCategories": [
+    "💸 Zamówienia",
+    "💱 Wymiany",
+    "✨ Współpraca",
+    "📞 Support"
+  ],
+  "ticketRole": "Id roli administratora, który może widziec tickety",
+
+  "verifyRole": "Id roli do weryfikacji",
+  "autoRole": [
+    "Id roli, która ma być nadana po dołączeniu na server",
+    "Id roli, która ma być nadana po dołączeniu na server",
+    "Id roli, która ma być nadana po dołączeniu na server"
+  ],
+
+  "reactionRole": [
+    {
+      "content": "Wybierz pingi",
+      "roles": [
+        {
+          "id": "Id roli",
+          "button": "🔔・Ping Ogłoszenia"
+        },
+        {
+          "id": "Id roli",
+          "button": "🔔・Ping Konkursy"
+        },
+        {
+          "id": "Id roli",
+          "button": "🔔・Ping Restock"
+        },
+        {
+          "id": "Id roli",
+          "button": "🔔・Ping Integracja"
+        }
+      ]
+    }
+  ],
+
+  "TOKEN": "Token Bota"
+}
